@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instincts : Order</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body class="order-effect">
+        <header class="nav-bar">
+            <nav class= "logo-tagline">
+                <div id="logo">
+                    <img id="logo_image"src="logo.png">
+                    <p id="company">instincts</p>
+                </div>
+                <h5 id="tagline">personal touch for your gifts</h5> 
+            </nav>
+        
+            <nav class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="product.html">Our Products</a>
+                <a href="order.html">Order Now</a>
+                <a href="new.html">What's New</a>
+                <a href="faq.html">FAQ</a>
+                <a href="support.html">Support</a>
+                <a href="contact.html">Contact Us</a>
+             </nav>             
+        </header>    
+        <hr>
+        <section>
+            <form action="http://itu.lewebcafe.com/sen910/form.php" method="post" name="orderform1" id="orderform1" align="center">
+                <fieldset>
+                    <legend class="center">Contact Details</legend>
+                    <table>
+                        <tr>
+                           <th>First Name</th>
+                           <td><input type="text" name="fname" id="fname"/></td>
+                        </tr>
+                        <tr>
+                           <th>Last Name</th>
+                           <td><input type="text" name="lname" id="lname"/></td>
+                        </tr>
+                        <tr>
+                           <th>Street Address</th>
+                           <td><input type="text" name="address_apt" id="address_apt"></td>
+                        </tr>
+                        <tr>
+                           <th>City</th>
+                           <td><input type="text" name="city" id="city"></td>
+                        </tr>
+                        <tr>
+                           <th>State</th>
+                           <td><input type="text" name="state" id="state"></td>
+                        </tr>
+                        <tr>
+                            <th>Zip Code</th>
+                            <td><input type="text" name="pincode" id="pincode">
+                            </td>
+                        </tr>
+                        <tr>
+                           <th>Phone</th>
+                           <td><input type="tel" name="phone" id="phone"></td>
+                        </tr>
+                        <tr>
+                           <th>Email</th>
+                           <td><input type="email" name="email" id="email"></td>
+                        </tr>
+                        <tr>
+                           <th>Credit Card No</th>
+                           <td><input type="text" name="creditcard" id="creditcard" maxlength="16"></td>
+                        </tr>
+                        <tr>
+                           <th>Choose a card type</th>
+                           <td>
+                                <select name="cctype">
+                                    <option seelcted>Visa
+                                    <option>Master Card
+                                    <option>Discover Card
+                                    <option>American Express
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                           <th>CC Expiration</th>
+                           <td><input type="month" name="exp" id="exp"></td>
+                        </tr>
+                        <tr>
+                           <th rowspan=5>Comment</th>
+                           <td><textarea name="comments" rows= "5" cols="20" id="comments" wrap="physical"></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                
+                <table class="border-table">
+                    <tr>
+                       <th colspan=5 class="table-head">
+                        Select the quantity under each category to place an order. Once
+                        we recieve your request, the confirmation of order is sent to your email Id.
+                        Thanks for ordering with us.
+                    </tr>
+                    <tr>
+                       <th class="column-head">Category<th class="column-head">Description<th class="column-head">Unit Price
+                       <th class="column-head">Quantity<th class="column-head">Total Price
+                    </tr>
+                    <tr>
+                       <th rowspan=4>Personalized Home Products
+                       <th align=left>House name plate</th>
+                       <th align=left>$20.95</th>
+                       <td align=right><input type=text size=5 name="home1"></td>
+                       <td align=right><input type=text size=7 name="tot1"></td>
+                    </tr>
+                    <tr>
+                       <th align=left>Door Mats</th>
+                       <th align=left>$19.95</th>
+                       <td align=right><input type=text size=5 name="home2"></td>
+                       <td align=right><input type=text size=7 name="tot2"></td>
+                    </tr>
+                    <tr>
+                       <th align=left>Beach Towel</th>
+                       <th align=left>$24.95</th>
+                       <td align=right><input type=text size=5 name="home3"></td>
+                       <td align=right><input type=text size=7 name="tot3"></td>
+                    </tr>
+                    <tr>
+                       <th align=left>Apron</th>
+                       <th align=left>$24.95</th>
+                       <td align=right><input type=text size=5 name="home3"></td>
+                       <td align=right><input type=text size=7 name="tot4"></td>
+                    </tr>
+                    <tr>
+                       <th align=right colspan=4>Sub Total</th>
+                       <td align=right><input type=text size=7 name="subtot1"></td>
+                    </tr>
+                    <tr>
+                       <th rowspan=3>Customized Photo Gifts</th>
+                       <th align=left>Coffee Mug</th>
+                       <th align=left>$15.99</th>
+                       <td align=right><input type=text size=5 name="photo1"></td>
+                       <td align=right><input type=text size=7 name="tot5"></td>
+                    </tr>
+                    <tr>
+                       <th align=left>T-shirt</th>
+                       <th align=left>$25.99</th>
+                       <td align=right><input type=text size=5 name="photo2"></td>
+                       <td align=right><input type=text size=7 name="tot6"></td>
+                    </tr>
+                    <tr>
+                       <th align=left>Phone Case</th>
+                       <th align=left>$15.99</th>
+                       <td align=right><input type=text size=5 name="photo3"></td>
+                       <td align=right><input type=text size=7 name="tot7"></td>
+                    </tr>
+                    <tr>
+                       <th align=right colspan=4>Sub Total</th>
+                       <td align=right><input type=text size=7 name="subtot2"></td>
+                    </tr>
+                    <tr>
+                       <th rowspan=2>Cards</th>
+                       <th align=left>Hand-made</th>
+                       <th align=left>$25.99</th>
+                       <td align=right><input type=text size=5 name="card1"></td>
+                       <td align=right><input type=text size=7 name="tot8"></td>
+                    </tr>
+                    <tr>
+                       <th align=left>Standard</th>
+                       <th align=left>$25.99</th>
+                       <td align=right><input type=text size=5 name="card1"></td>
+                       <td align=right><input type=text size=7 name="tot8"></td>
+                    </tr>
+                    <tr>
+                       <th align=right colspan=4>Sub Total</th>
+                       <td align=right><input type=text size=7 name="subtot3"></td>
+                    </tr>
+                    <tr>
+                       <th align=right colspan=4>Total</th>
+                       <td align=right><input type=text size=7 name="finaltot"></td>
+                    </tr>
+                </table>
+            <button class="submit"type="submit" name="SubmitButton" value="Submit">Submit Details</button>
+            <button class="reset" type="reset" name="ResetButton" value="Reset">Reset</button>
+        </form> 
+    
+            
+             
+             <br>
+             <hr>
+             
+             <article class=bottom-bar>
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="product.html">Our Products</a>
+                    <a href="order.html">Order Now</a>
+                    <a href="new.html">What's New</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="support.html">Support</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+             </article>
+             
+        </section>
+        
+        <footer class="private-policy">
+                    <p>&copy; Copyright 2015, Instincts Inc.<p>
+        </footer>
+    </body>
+</html>

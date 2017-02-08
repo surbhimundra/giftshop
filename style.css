@@ -1,0 +1,513 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+.home-effect{
+    background-image: url(homewallpaper.jpg);
+    background-size: 100% 100%;
+}
+
+.con-effect{
+    background-image: -webkit-gradient(linear, 0 0, 0 1568, from(#082148), color-stop(0.119, #0c2b52), color-stop(0.537, #5c81a3), to(#3c5789));
+    background-image: -webkit-linear-gradient(#082148, #0c2b52 11.9%, #5c81a3 53.7%, #3c5789);
+    background-image: -moz-linear-gradient(#082148, #0c2b52 11.9%, #5c81a3 53.7%, #3c5789);
+    background-image: -o-linear-gradient(#082148, #0c2b52 11.9%, #5c81a3 53.7%, #3c5789);
+    background-image: linear-gradient(#082148, #0c2b52 11.9%, #5c81a3 53.7%, #3c5789);
+    background-size:100% 100%;
+}
+
+.about-effect{
+    background-image: url(aboutwallpaper.jpg);
+    background-size: 100% 100%;
+    background-color:transparent;
+}
+
+.new-effect{
+    background-image: url(whatnew.jpg);
+    background-size: 100% 100%;
+ 
+}
+
+.order-effect{
+    background-image: -webkit-gradient(linear, 0 0, 0 1483, color-stop(0.012, #484094), color-stop(0.55, #b47189), to(#22124a));
+    background-image: -webkit-linear-gradient(#484094 1.2%, #b47189 55%, #22124a);
+    background-image: -moz-linear-gradient(#484094 1.2%, #b47189 55%, #22124a);
+    background-image: -o-linear-gradient(#484094 1.2%, #b47189 55%, #22124a);
+    background-image: linear-gradient(#484094 1.2%, #b47189 55%, #22124a)
+}
+
+.faq-effect{
+    background-image: -webkit-gradient(linear, 0 0, 644.5 0, from(#58b1b6), color-stop(0.186, #86718f), color-stop(0.204, #8e6e8c), color-stop(0.208, #916d8b), color-stop(0.211, #926c8a), color-stop(0.254, #a46884), color-stop(0.257, #a76783), color-stop(0.276, #ad6582), color-stop(0.326, #bd647f), color-stop(0.329, #bd657e), color-stop(0.329, #be647d), color-stop(0.375, #c76478), color-stop(0.413, #cd6374), color-stop(0.639, #f09066), color-stop(0.804, #fcb962), color-stop(0.809, #feb762), color-stop(0.838, #fdbb5f), color-stop(0.878, #ffbf63), color-stop(0.885, #ffc163), color-stop(0.897, #ffc061), color-stop(0.902, #ffc263), color-stop(0.953, #fec463));
+    background-image: -webkit-linear-gradient(360deg, #58b1b6, #86718f 18.6%, #8e6e8c 20.4%, #916d8b 20.8%, #926c8a 21.1%, #a46884 25.4%, #a76783 25.7%, #ad6582 27.6%, #bd647f 32.6%, #bd657e 32.9%, #be647d 32.9%, #c76478 37.5%, #cd6374 41.3%, #f09066 63.9%, #fcb962 80.4%, #feb762 80.9%, #fdbb5f 83.8%, #ffbf63 87.8%, #ffc163 88.5%, #ffc061 89.7%, #ffc263 90.2%, #fec463 95.3%);
+    background-image: -moz-linear-gradient(360deg, #58b1b6, #86718f 18.6%, #8e6e8c 20.4%, #916d8b 20.8%, #926c8a 21.1%, #a46884 25.4%, #a76783 25.7%, #ad6582 27.6%, #bd647f 32.6%, #bd657e 32.9%, #be647d 32.9%, #c76478 37.5%, #cd6374 41.3%, #f09066 63.9%, #fcb962 80.4%, #feb762 80.9%, #fdbb5f 83.8%, #ffbf63 87.8%, #ffc163 88.5%, #ffc061 89.7%, #ffc263 90.2%, #fec463 95.3%);
+    background-image: -o-linear-gradient(360deg, #58b1b6, #86718f 18.6%, #8e6e8c 20.4%, #916d8b 20.8%, #926c8a 21.1%, #a46884 25.4%, #a76783 25.7%, #ad6582 27.6%, #bd647f 32.6%, #bd657e 32.9%, #be647d 32.9%, #c76478 37.5%, #cd6374 41.3%, #f09066 63.9%, #fcb962 80.4%, #feb762 80.9%, #fdbb5f 83.8%, #ffbf63 87.8%, #ffc163 88.5%, #ffc061 89.7%, #ffc263 90.2%, #fec463 95.3%);
+    background-image: linear-gradient(90deg, #58b1b6, #86718f 18.6%, #8e6e8c 20.4%, #916d8b 20.8%, #926c8a 21.1%, #a46884 25.4%, #a76783 25.7%, #ad6582 27.6%, #bd647f 32.6%, #bd657e 32.9%, #be647d 32.9%, #c76478 37.5%, #cd6374 41.3%, #f09066 63.9%, #fcb962 80.4%, #feb762 80.9%, #fdbb5f 83.8%, #ffbf63 87.8%, #ffc163 88.5%, #ffc061 89.7%, #ffc263 90.2%, #fec463 95.3%);
+    background-size: 100% 100%;
+}
+
+
+
+.support-effect{
+    background-image: url(support.jpg);
+    background-size: 100% 100%;
+}
+
+.product-effect{
+    background-image: url(http://st.depositphotos.com/1828227/1548/v/950/depositphotos_15489925-Colorful-Textured-Gift-Boxes-Seamless-Pattern-Background.jpg);
+    background-repeat: repeat;
+}
+
+
+.con-effect h3{
+    color:#FFEC94;
+}
+
+.con-effect .box{
+    background-color: transparent;
+}
+
+.about-effect .nav-bar{
+    background-color: transparent;
+}
+
+.con-effect .nav-bar{
+    background-color: transparent;
+}
+
+.home-effect .nav-bar{
+    background-color: transparent;
+}
+
+
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: #FFFFFF;
+}
+
+
+
+h3{
+    font-family: "Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif";
+    font-size: 2em;
+    font-weight: 500;
+    color: deeppink;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px #999;
+}
+
+.nav-bar{
+    padding-bottom: 10px;
+}
+
+.nav-bar1{
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+
+.box{
+    background-color: rgba(255, 255, 255,0.2);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    margin-top: 50px;
+    top: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 3px #FFFFFF;
+}
+
+.nav-box{
+    background-color: transparent;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+}
+
+h4{
+    font-size: larger;
+    letter-spacing: 2px;
+    font-family: "Papyrus, fantasy";
+    color: #FF6600;
+}
+
+.box h5{
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+.home-effect p{
+    font-size: large;
+    text-align: center;
+}
+
+.trial{
+    position: relative;
+    float: left;
+}
+
+
+.content{
+    background-color: transparent;
+    padding:10px;
+    width: 70%;
+    text-align: justify;
+    margin-left: auto;
+    color: black;
+    box-shadow: 1px 1px 10px 3px #FFFFFF;
+    background-color: rgba(255, 255, 255,0.1);
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+.highlight{
+    color: deeppink;
+    font-style: italic;
+    font-weight: bold;  
+}
+
+
+.logo-tagline{
+    font-family: "Klavika";
+    color: deeppink;
+    margin-top: 0px;
+    height: 50px;
+    
+}
+
+#logo{
+    margin-left: 40px;
+    
+}
+
+#company{
+    letter-spacing: 3px;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: left;
+    margin-top: -25px;
+}
+
+#logo_image{
+   height: 97px;
+   width: 157px;
+   margin-top: auto;
+    
+}
+
+#tagline{
+    font-size: xx-small;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: -10px;
+}
+
+
+.links{
+    margin-left: 300px;
+    padding-top: 30px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+
+.bottom-bar .links{
+    text-align: center;
+    margin-left: 0px;
+}
+
+a{
+    margin-left: 0px;
+    padding: 2px;
+    color: deeppink;
+    text-decoration: none;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    }
+    
+a:hover{
+    color:#333399;
+    border-bottom: #333399 2px solid;
+    
+}
+
+a:visited{
+    color: #FF0066;
+    border-bottom: #FF0066 2px solid;
+}
+
+.private-policy{
+    text-align: right;
+    float: right;
+}
+
+.about-effect a{
+    background-color: transparent;
+}
+
+.con-effect a{
+    background-color: transparent;
+}
+
+.home-effect a{
+    background-color: transparent;
+}
+
+dt{
+    font-family: "Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif";
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    color:deeppink;
+    
+}
+
+dd{
+    margin-bottom: 30px;
+    font-family: "Verdana, Geneva, sans-serif";
+    font-size: medium;
+    color: #6600CC;
+}
+
+dl{
+    margin-bottom:40px;
+}
+
+.outer-box{
+    padding:40px;
+    margin:20px;
+    font-family: "Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif";
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.box1{
+    height: 120px;
+    width: 60%;
+    float: left;
+    clear:left;
+    background-color:rgba(0, 51, 204,0.1);
+    box-shadow: 1px 2px 10px 4px #26867D;
+    border-radius: 20px;
+}
+
+#image1{
+    height:100px;
+    width: 100px;
+    float: left;
+}
+
+.box2{
+    width: 60%;
+    height:120px;
+    float:right;
+    clear:right;
+    background-color:rgba(0, 51, 204,0.1);
+    box-shadow: 1px 2px 10px 4px #26867D;
+    border-radius: 20px;
+    
+}
+
+
+h2{
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    text-shadow: 2px 2px #999;
+  
+}
+
+.box1 p,.box2 p{
+    padding-left: 20px;
+    font-size: 1em;
+}
+
+.image2{
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/73/94/b5/7394b5c4c6d23ca0e4a1f2740243a930.jpg);
+    width: 350px;
+    height: 350px;
+    margin:50px;
+    margin-left:150px;
+    background-size: contain;
+    float: left;
+    clear: left;
+    border-radius: 20px;
+    position:relative;
+    border: 10px ridge deeppink;
+}
+
+.text-vertical{
+    width:inherit;
+    position: absolute;
+    top: 300px;
+    font-family: Papyrus, fantasy;
+    color: #000066;
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px #999;
+}
+
+.text-vertical1{
+    width:inherit;
+    position: absolute;
+    top: 100px;
+    font-family: Papyrus, fantasy;
+    color: #000066;
+    font-weight: 600;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px #999;
+}
+
+.image3{
+    background-image: url(http://projectnursery.com/wp-content/uploads/2013/01/Call-Me-Maybe-Valentines-Day-Party-A-Blissful-Nest-001.jpg);
+    width: 350px;
+    height: 350px;
+    margin:50px;
+    margin-right: 150px;
+    background-size: cover;;
+    background-repeat: no-repeat;
+    float: right;
+    clear: right;
+    border-radius: 20px;
+    position:relative;
+    border: 10px ridge deeppink;
+}
+.image4{
+    background-image: url(http://www.personalizationmall.com/cat_image/300/12198-26538.jpg);
+    width: 350px;
+    height: 350px;
+    margin-left: 150px;
+    background-size: contain;
+    float: left;
+    clear: left;
+    border-radius: 20px;
+    position:relative;
+    border: 10px ridge deeppink;
+    margin-top:100px;
+    
+}
+
+.image5{
+    margin-top: 100px;
+    background-image: url(http://img.auctiva.com/imgdata/5/5/3/6/5/9/webimg/660829164_o.jpg);
+    width: 350px;
+    height: 350px;
+    margin-right: 150px;
+    background-size: contain;
+    float: right;
+    clear: right;
+    border-radius: 20px;
+    position:relative;
+    border: 10px ridge deeppink;
+    
+}
+
+
+.center{
+    text-align: center;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: larger;
+    color:#000066;
+    letter-spacing: 2px;
+    
+}
+
+form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr{
+    font-size: medium;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-weight: bold;
+    font-style: italic;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    padding: 10px;
+    font-size: medium;
+    border-radius: 10px;
+    color: white;
+}
+
+fieldset{
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+    padding: 20px;
+}
+
+.border-table{
+    border: double;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.border-table th, .border-table td{
+    border: solid;
+    border-spacing: 5px;
+    padding: 10px;
+
+}
+
+.table-head{
+    background-color: #85E0E0;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+    opacity: 0.4;
+}
+
+.column-head{
+    background-color: lightblue;
+    padding: 10px;
+    
+}
+
+.product-table{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.product-table th, .product-table td,{
+    padding: 5px;
+    border-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
