@@ -4,7 +4,7 @@
 }
 
 .home-effect{
-    background-image: url(homewallpaper.jpg);
+    background-image: url(images/homewallpaper.jpg);
     background-size: 100% 100%;
 }
 
@@ -18,13 +18,13 @@
 }
 
 .about-effect{
-    background-image: url(aboutwallpaper.jpg);
+    background-image: url(images/aboutwallpaper.jpg);
     background-size: 100% 100%;
     background-color:transparent;
 }
 
 .new-effect{
-    background-image: url(whatnew.jpg);
+    background-image: url(images/whatnew.jpg);
     background-size: 100% 100%;
  
 }
@@ -49,7 +49,7 @@
 
 
 .support-effect{
-    background-image: url(support.jpg);
+    background-image: url(images/support.jpg);
     background-size: 100% 100%;
 }
 
